@@ -5,8 +5,6 @@ cache: npm
 branches:
   only:
     - hexo # build master branch only
-before_install:
-  - git submodule update --init
 install:
   - npm install
 script:

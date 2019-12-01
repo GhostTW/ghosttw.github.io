@@ -113,4 +113,5 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/GhostTW/ghosttw.github.io.git
