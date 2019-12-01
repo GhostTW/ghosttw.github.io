@@ -9,4 +9,5 @@ install:
   - npm install
 script:
   - hexo clean
-  - hexo g -d # generate static files
+  - hexo g # generate static files
+  - hexo deploy
