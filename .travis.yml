@@ -4,11 +4,19 @@ node_js: stable
 cache: npm
 branches:
   only:
-    - hexo # build master branch only
+  - hexo
+before_install:
+- npm install -g hexo-cli
 install:
-  - npm install
+- npm install
 script:
-  - hexo clean
-after_success:
-  - sed -i s/token_github/$GH_TOKEN/g _config.yml
-  - hexo deploy
+- hexo clean
+- git config --global user.name "Ghost Yang"
+- git config --global user.email "ghosttw88@hotmail.com"
+- sed -i'' - sed -i'' "s~git@github.com:GhostTW/ghosttw.github.io.git~https://${GH_TOKEN}@github.com/GhostTW/ghosttw.github.io.git~"
+  _config.yml
+- hexo deploy
+env:
+  global:
+    secure: mYj8DEmpYL3wOqy+B7o1fSNBaFvXdtY5/JwAq2UaTOGBNFU/2fU2RkGV+C+uIAe8doSWTEVKb2iNP1A9Ne45W2FZvG3d4GNlsQGFYUR6tA2ynsepp6j7twPB2NHhowO348fWBlTr5DZBW0Ugqq2MYCl/hvaalzY15rq+osZfPvxFspwR1hR6hGnxYoEDJxfVb9d+k5J9BYlHHjRGoqWvS9oqsLyK19kJS+UId0aKuuhGcPVKsnSIsLS5630OGtZw5GzIW8yh8+HEH35wj+14qBy3KWYtkxkIP92UbvcHsBxop3mTcuYiMRR5TJk6mSM2pATXYkjh9sqbpyjUYBVUL/oecvXZgZbArUjN399BPZAh+3Vmf/CYPspe4VPaCO7/EuI9xnY/YUA/VabhYQ0oj9BGRbR0wpbXQs1h8aBjv12ctr887yxauTGQh2BgKJzQFoBHYwjIc0z4z1pyz8kkUF51hzTKl/B/bbDerYFOYlh9eIf/uXyiYA6KaHMj+ROfxx1ckF5X46S05TqVdsfBzPAWcSfmDI7TbelnpL0Lnzu6XrvDR4XYHCySFMeCGrHwnpj8lZ45HoWbgqKKNsSKMKHgMoGyvX26Go11N5qYShqE11HhVQ8L0DI93v5lGuHpg3XKH6T/95G82Iv6AKfxhg3dXuUaUG/5cVW4rwgp20Y=
+# https://maologue.com/Auto-deploy-Hexo-with-Travis-CI/
