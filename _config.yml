@@ -4,11 +4,11 @@
 
 # Site
 title: Ghost Notes
-subtitle: ''
+subtitle: '人生有不同的路，往前走是唯一的路。'
 description: ''
 keywords: c#,software engineer,blog
 author: Ghost Yang
-language: zh-tw
+language: en
 timezone: 'Asia/Taipei'
 
 # URL
@@ -108,7 +108,7 @@ sitemap:
   path: sitemap.xml
   
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
