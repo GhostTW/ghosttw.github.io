@@ -13,8 +13,7 @@ script:
 - hexo clean
 - git config --global user.name "Ghost Yang"
 - git config --global user.email "ghosttw88@hotmail.com"
-- sed -i'' - sed -i'' "s~git@github.com:GhostTW/ghosttw.github.io.git~https://${GH_TOKEN}@github.com/GhostTW/ghosttw.github.io.git~"
-  _config.yml
+- sed -i'' "s~git@github.com:GhostTW/ghosttw.github.io.git~https://${REPO_TOKEN}@github.com/GhostTW/ghosttw.github.io.git~" _config.yml
 - hexo deploy
 env:
   global:
