@@ -113,4 +113,7 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:GhostTW/ghosttw.github.io.git
+  branch: master
+  token: $GH_TOKEN
