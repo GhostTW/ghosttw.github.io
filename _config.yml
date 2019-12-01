@@ -14,7 +14,7 @@ timezone: 'Asia/Taipei'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://ghosttw.github.io
-root: /
+root: /public
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -89,15 +89,7 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: next
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: ''
-
-# RSS plugin
+### RSS plugin
 feed:
   type: atom
   path: atom.xml
@@ -111,6 +103,16 @@ feed:
   autodiscovery: true
   template:
 
-# sitemap
+### sitemap
 sitemap:
   path: sitemap.xml
+  
+## Themes: https://hexo.io/themes/
+theme: next
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: 'git'
+  repo: https://github.com/GhostTW/ghosttw.github.io.git
+  branch: master

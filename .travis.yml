@@ -8,9 +8,10 @@ branches:
 before_install:
   - git submodule update --init
 install:
-  - yarn install
+  - npm install
 script:
-  - hexo generate # generate static files
+  - hexo clean
+  - hexo g -d # generate static files
 deploy:
   provider: pages
   skip-cleanup: true
