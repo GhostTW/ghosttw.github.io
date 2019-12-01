@@ -4,7 +4,7 @@ node_js: stable
 cache: npm
 branches:
   only:
-    - master # build master branch only
+    - hexo # build master branch only
 before_install:
   - git submodule update --init
 install:
@@ -19,3 +19,4 @@ deploy:
   keep-history: true
   on:
     branch: master
+  local-dir: public
