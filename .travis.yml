@@ -9,5 +9,6 @@ install:
   - npm install
 script:
   - hexo clean
-  - hexo g # generate static files
+after_success:
+  - sed -i s/token_github/$GH_TOKEN/g _config.yml
   - hexo deploy

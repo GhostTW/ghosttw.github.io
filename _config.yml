@@ -115,5 +115,4 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:GhostTW/ghosttw.github.io.git
-  branch: master
-  token: $GH_TOKEN
+  token: token_github
