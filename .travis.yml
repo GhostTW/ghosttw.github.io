@@ -4,7 +4,9 @@ node_js: stable
 cache: npm
 branches:
   only:
-    - hexo # build master branch only
+    - master # build master branch only
+before_install:
+  - git submodule update --init
 install:
   - npm install
 script:
@@ -15,6 +17,5 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
-  target_branch: master
   on:
     branch: master
