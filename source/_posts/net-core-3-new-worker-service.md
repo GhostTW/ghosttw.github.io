@@ -2,7 +2,7 @@
 title: .Net Core 3 新功能 Worker Service
 date: 2019-12-02 22:38:57
 tags: dotnet, core-3
-categories: core-3
+categories: dotnet-core-3
 ---
 
 ## .Net Core Worker Service
