@@ -1,7 +1,7 @@
 ---
 title: .Net Core 3 HttpRequestMessage version 預設變更
 date: 2019-12-03 22:56:38
-tags: dotnet, core-3
+tags: ['dotnet', 'core-3']
 categories: dotnet-core-3
 ---
 

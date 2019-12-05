@@ -1,7 +1,7 @@
 ---
 title: Hexo 整合 Travis-ci 自動建置與發佈
 date: 2019-12-01 22:37:56
-tags: Hexo, blog, travis-ci
+tags: ['Hexo', 'blog', 'travis-ci']
 categories:
 ---
 
