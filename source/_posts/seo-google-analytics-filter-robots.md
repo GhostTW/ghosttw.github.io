@@ -1,7 +1,7 @@
 ---
 title: Google Analytics 設定過濾 bot 及爬蟲流量
 date: 2019-12-04 22:20:07
-tags: google-analytics,seo
+tags: ['google-analytics','seo']
 categories:
 ---
 

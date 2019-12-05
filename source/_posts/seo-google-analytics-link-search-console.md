@@ -1,7 +1,7 @@
 ---
 title: Google Analytics 連結 Google Search Console
 date: 2019-12-04 22:49:00
-tags: google-analytics,search-console,seo
+tags: ['google-analytics','search-console,seo']
 categories:
 ---
 
