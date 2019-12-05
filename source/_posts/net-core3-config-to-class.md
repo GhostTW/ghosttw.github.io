@@ -190,4 +190,6 @@ private static void Commandline_arguments()
 
 ## References
 
+[此次程式碼](https://github.com/GhostTW/demos/tree/master/net-core3-config-to-class/ConfigurationMapping)
+
 [docs.microsoft](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1)
