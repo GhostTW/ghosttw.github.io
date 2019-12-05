@@ -122,3 +122,15 @@ deploy:
   type: git
   repo: git@github.com:GhostTW/ghosttw.github.io.git
   branch: master
+
+# Hexo-all-minifier
+  all_minifier: true
+
+# hexo-auto-link-chekcer
+autoLinkChecker:
+  # enable: false
+  rarelyChangePostsPath: 404/
+  cachePath: cache/hexo-auto-link-checker.json
+  exclusionURL:
+    - hoge-url/
+    - articles-toc
