@@ -129,6 +129,6 @@ public class xUnitUnitTest
 
 ## References
 
-[此次程式碼](https://github.com/GhostTW/demos/tree/master/nunit-xunit-test-case-isolation-setup/)
+[此次程式碼](https://github.com/GhostTW/demos/tree/master/nunit-xunit-test-case-isolation-setup/NUnitTestProject/)
 [NUnit SetUp-and-TearDown-Changes](https://github.com/nunit/docs/wiki/SetUp-and-TearDown-Changes)
 [xunit shared-context](https://xunit.net/docs/shared-context)
