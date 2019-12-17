@@ -36,7 +36,7 @@ Test_Set_HttpRequestMessage_HttpVersion20: 驗證使用 HttpRequestMessage 並�
 
 測試完的結果會發現，response 怎麼跑都是 1.1 版。
 
-```C#
+```csharp
 static void Main(string[] args)
 {
     Console.WriteLine($"{nameof(http_client_core22)}");
@@ -98,7 +98,7 @@ Test_Set_HttpRequestMessage_Version20: 驗證使用 HttpRequestMessage 並使用
 
 測試完的結果會發現，有設定 HTTP/2 的 response 就會是 2.0 版了。
 
-```C#
+```csharp
 static void Main(string[] args)
 {
     Test_Default().Wait();
@@ -152,7 +152,7 @@ private static async Task Test_Set_HttpRequestMessage_Version20()
 
 .Net Core 2.1 Preview 2 有說明他們使用新的 [SocketsHttpHandler](https://github.com/dotnet/corefx/blob/master/src/System.Net.Http/src/System/Net/Http/SocketsHttpHandler/SocketsHttpHandler.cs) 作為 HttpClient 的預設，最大的差異是在效能上、與平台相依脫勾、跨平台的一致性行為。
 
-```C#
+```csharp
 static void Main(string[] args)
 {
     Console.WriteLine($"{nameof(http_client_core22)}");

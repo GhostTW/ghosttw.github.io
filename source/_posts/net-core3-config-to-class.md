@@ -34,7 +34,7 @@ categories:
 
 #### 套件
 
-```C#
+```csharp
 <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0" />
 <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.0" />
 <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.0" />
@@ -57,7 +57,7 @@ categories:
 
 #### 類別
 
-```C#
+```csharp
 public class RootConfig
 {
     public SectionConfig Section0 { get; set; }
@@ -73,7 +73,7 @@ public class SectionConfig
 
 #### 程式
 
-```C#
+```csharp
 private static void Json_AppSettings()
 {
     //Keys are case-insensitive
@@ -107,7 +107,7 @@ private static void Json_AppSettings()
 
 #### 類別
 
-```C#
+```csharp
 public class ReportConfig
 {
     public ReportSectionConfig ReportSheet { get; set; }
@@ -122,7 +122,7 @@ public class ReportSectionConfig
 
 #### 程式
 
-```C#
+```csharp
 private static void Json_AppSettings_Colon()
 {
     var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
@@ -146,13 +146,13 @@ private static void Json_AppSettings_Colon()
 
 #### 套件
 
-```C#
+```csharp
 <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="3.1.0" />
 ```
 
 #### 類別
 
-```C#
+```csharp
 public class CommandlineArgumentsConfig
 {
     public string User { get; set; }
@@ -165,7 +165,7 @@ public class CommandlineArgumentsConfig
 
 #### 程式
 
-```C#
+```csharp
 private static void Commandline_arguments()
 {
     var args = new string[] { "--user", "ghost", "--password=123456", "address=tw", "/mail", "ghost@everwhere.com", "/comment=ok" };

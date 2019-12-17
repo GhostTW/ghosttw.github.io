@@ -28,7 +28,7 @@ dotnet add package Microsoft.Extensions.Hosting.WindowsServices --version 3.0.1
 
 3. 在 `program.cs` 下加入以下兩行，在不同 OS 會啟用但不互相影響。
 
-```C#
+```csharp
 public static IHostBuilder CreateHostBuilder(string[] args) =>
     Host.CreateDefaultBuilder(args)
         .UseSystemd() // for linux
