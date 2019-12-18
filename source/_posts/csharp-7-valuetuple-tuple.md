@@ -88,6 +88,8 @@ public class Tests
 
 ## Benchmark
 
+這邊測試了 Tuple, ValueTuple 的不同使用方式，觀察測試結果，使用 ValueTuple + Deconstruction 會比較快。
+
 * Summary *
 
 BenchmarkDotNet=v0.12.0, OS=Windows 10.0.19041
