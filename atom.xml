@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ghost Notes</title>
+  <icon>https://ghosttw.github.io/icon.png</icon>
+  <subtitle>人生有不同的路，往前走是唯一的路。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://ghosttw.github.io/"/>
+  <updated>2020-03-16T00:47:39.339Z</updated>
+  <id>https://ghosttw.github.io/</id>
+  
+  <author>
+    <name>Ghost Yang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C# 7.0 ref local and returns</title>
+    <link href="https://ghosttw.github.io/2020/01/09/csharp-7-ref-local-and-returns/"/>
+    <id>https://ghosttw.github.io/2020/01/09/csharp-7-ref-local-and-returns/</id>
+    <published>2020-01-09T14:49:00.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;實驗一下 C# 7.0 ref local 和 returns 的功能&lt;/p&gt;&lt;p&gt;使用 &lt;a href=&quot;https://www.linqpad.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;LINQPad 6&lt;/a&gt; 測試&lt;/p&gt;&lt;pre
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="dotnet" scheme="https://ghosttw.github.io/tags/dotnet/"/>
+    
+      <category term="csharp" scheme="https://ghosttw.github.io/tags/csharp/"/>
+    
+      <category term="c#7" scheme="https://ghosttw.github.io/tags/c-7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C# 8 readonly struct method 會有 defensive copy</title>
+    <link href="https://ghosttw.github.io/2020/01/07/csharp-8-readonly-struct-method/"/>
+    <id>https://ghosttw.github.io/2020/01/07/csharp-8-readonly-struct-method/</id>
+    <published>2020-01-07T15:47:42.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天抽空在看 C# 8 的新特性，有一個 readonly method 讓我有了興趣，也順便試了新功能不同的組合應用。&lt;/p&gt;&lt;h2 id=&quot;Readonly-Method&quot;&gt;&lt;a href=&quot;#Readonly-Method&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="dotnet" scheme="https://ghosttw.github.io/tags/dotnet/"/>
+    
+      <category term="csharp" scheme="https://ghosttw.github.io/tags/csharp/"/>
+    
+      <category term="c#8" scheme="https://ghosttw.github.io/tags/c-8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在 .Net Core Console 依環境使用不同設定檔</title>
+    <link href="https://ghosttw.github.io/2019/12/26/net-core3-config-depends-on-different-environment/"/>
+    <id>https://ghosttw.github.io/2019/12/26/net-core3-config-depends-on-different-environment/</id>
+    <published>2019-12-26T14:40:15.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;上次有提到如何在 Console 使用 .Net Core 的 Configuration 自動對應到 class。&lt;/p&gt;&lt;p&gt;今天遇到需要依環境使用不同的環境設定檔，筆記一下。&lt;/p&gt;&lt;h2 id=&quot;環境&quot;&gt;&lt;a href=&quot;#環境&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="dotnet" scheme="https://ghosttw.github.io/tags/dotnet/"/>
+    
+      <category term="core-3" scheme="https://ghosttw.github.io/tags/core-3/"/>
+    
+      <category term="config" scheme="https://ghosttw.github.io/tags/config/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IEnumerable, Enumerator, LinQ 底層研究及 IEnumerable 不可信的原因!</title>
+    <link href="https://ghosttw.github.io/2019/12/26/ienumerable-enumerator-linq-select-new-object/"/>
+    <id>https://ghosttw.github.io/2019/12/26/ienumerable-enumerator-linq-select-new-object/</id>
+    <published>2019-12-26T13:22:44.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;源由&quot;&gt;&lt;a href=&quot;#源由&quot; class=&quot;headerlink&quot; title=&quot;源由&quot;&gt;&lt;/a&gt;源由&lt;/h2&gt;&lt;p&gt;昨天被朋友問了一個問題，乍看之下以為不是什麼大問題，後來發現自己還是對 &lt;code&gt;IEnumerable&lt;/code&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="csharp" scheme="https://ghosttw.github.io/tags/csharp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C# 7 Tuple and ValueTuple</title>
+    <link href="https://ghosttw.github.io/2019/12/18/csharp-7-valuetuple-tuple/"/>
+    <id>https://ghosttw.github.io/2019/12/18/csharp-7-valuetuple-tuple/</id>
+    <published>2019-12-18T16:16:02.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;舊功能筆記，太久沒用有些細節忘記了，被提醒了一波，還是筆記下來好了。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Tuple 是 class&lt;/li&gt;&lt;li&gt;ValueTuple 是 struct 所以不會被 GC 管控，節省 GC 效能。&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;實驗程式&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="dotnet" scheme="https://ghosttw.github.io/tags/dotnet/"/>
+    
+      <category term="csharp" scheme="https://ghosttw.github.io/tags/csharp/"/>
+    
+      <category term="c#7" scheme="https://ghosttw.github.io/tags/c-7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NUnit 與 xUnit 在 TestCase 預設成員變數生命週期差異</title>
+    <link href="https://ghosttw.github.io/2019/12/17/nunit-xunit-test-case-isolation-setup/"/>
+    <id>https://ghosttw.github.io/2019/12/17/nunit-xunit-test-case-isolation-setup/</id>
+    <published>2019-12-17T15:23:56.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;以前寫了好幾年的 xUnit 都沒在用 &lt;code&gt;Setup&lt;/code&gt; &lt;code&gt;OneTimeSetup&lt;/code&gt; ，TestCase 的 arrange 都擠在開頭，最近用 NUnit 寫，被教導說這樣的重用性很低，應該要擅用
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="dotnet" scheme="https://ghosttw.github.io/tags/dotnet/"/>
+    
+      <category term="xunit" scheme="https://ghosttw.github.io/tags/xunit/"/>
+    
+      <category term="nunit" scheme="https://ghosttw.github.io/tags/nunit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitLab Badge api 用 img.shield 更新</title>
+    <link href="https://ghosttw.github.io/2019/12/10/gitlab-update-badge-with-img-shield/"/>
+    <id>https://ghosttw.github.io/2019/12/10/gitlab-update-badge-with-img-shield/</id>
+    <published>2019-12-10T14:11:38.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;情境&quot;&gt;&lt;a href=&quot;#情境&quot; class=&quot;headerlink&quot; title=&quot;情境&quot;&gt;&lt;/a&gt;情境&lt;/h2&gt;&lt;p&gt;最近本來需要在 gitlab project 頁面上做一個更新 badge 資訊的功能，要將 badge 顯示成
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="gitlab" scheme="https://ghosttw.github.io/tags/gitlab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MariaDb 在不同 isolation level 下的行為及解決的問題</title>
+    <link href="https://ghosttw.github.io/2019/12/08/mariadb-transaction-isolation-level/"/>
+    <id>https://ghosttw.github.io/2019/12/08/mariadb-transaction-isolation-level/</id>
+    <published>2019-12-08T12:54:26.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;此練習使用 Sql 與 MySqlWorkBench 練習實作不同的 Isolation Level 對資料造成的影響，分別有 Dirty Data, Non-Repeatable, Phantom Data 的問題．&lt;/p&gt;&lt;h2 id=&quot;實驗資料庫的建立&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="mariadb" scheme="https://ghosttw.github.io/tags/mariadb/"/>
+    
+      <category term="database" scheme="https://ghosttw.github.io/tags/database/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在 .Net Core Console 自動將設定檔對應到類別上</title>
+    <link href="https://ghosttw.github.io/2019/12/05/net-core3-config-to-class/"/>
+    <id>https://ghosttw.github.io/2019/12/05/net-core3-config-to-class/</id>
+    <published>2019-12-05T13:38:19.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天在工作上需要在 .Net Core 3 Console app 上將 appsettings.json 的設定檔轉到類別物件上，但是找到的資訊都是在 Asp.net Core 3 上的範例，後來就自行嘗試在 Console 上用一樣的方式試看看，好在該套件並不一定要跟
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="dotnet" scheme="https://ghosttw.github.io/tags/dotnet/"/>
+    
+      <category term="core-3" scheme="https://ghosttw.github.io/tags/core-3/"/>
+    
+      <category term="config" scheme="https://ghosttw.github.io/tags/config/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Google Analytics 連結 Google Search Console</title>
+    <link href="https://ghosttw.github.io/2019/12/04/seo-google-analytics-link-search-console/"/>
+    <id>https://ghosttw.github.io/2019/12/04/seo-google-analytics-link-search-console/</id>
+    <published>2019-12-04T14:49:00.000Z</published>
+    <updated>2020-03-16T00:47:39.343Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;這篇是教學如何將 Google Analytics 連結到 Google Search Console 讓 Google Analytics 可以使用 Google Search Console 的資訊。&lt;br&gt;在設定連結完成後，就可以在報表裡看到是哪些使用者透過
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="google-analytics" scheme="https://ghosttw.github.io/tags/google-analytics/"/>
+    
+      <category term="seo" scheme="https://ghosttw.github.io/tags/seo/"/>
+    
+      <category term="search-console" scheme="https://ghosttw.github.io/tags/search-console/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Google Analytics 設定過濾 bot 及爬蟲流量</title>
+    <link href="https://ghosttw.github.io/2019/12/04/seo-google-analytics-filter-robots/"/>
+    <id>https://ghosttw.github.io/2019/12/04/seo-google-analytics-filter-robots/</id>
+    <published>2019-12-04T14:20:07.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;幾年前在第一份工作時，有幫忙公司研究 SEO 相關設定，最近因為架了部落格，重新對部落格再作調整，將之前的東西慢慢補上來。&lt;/p&gt;&lt;p&gt;這篇其實是 Google Analytics 的 master 預設設定，所以只是簡單說明一下在哪開關及作用。&lt;/p&gt;&lt;p&gt;基本上
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="google-analytics" scheme="https://ghosttw.github.io/tags/google-analytics/"/>
+    
+      <category term="seo" scheme="https://ghosttw.github.io/tags/seo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>.Net Core 3 HttpRequestMessage version 預設變更</title>
+    <link href="https://ghosttw.github.io/2019/12/03/net-core-3-new-http-default-version/"/>
+    <id>https://ghosttw.github.io/2019/12/03/net-core-3-new-http-default-version/</id>
+    <published>2019-12-03T14:56:38.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;.Net Core 3.0 這次將 HttpRequestMessage 預設版本降回 1.1，但是在 .Net Core 2.1, .Net Core 2.2 時預設版本被調升為 2.0，而 2.1 之前則是 1.1。&lt;/p&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th
+        
+      
+    
+    </summary>
+    
+    
+      <category term="dotnet-core-3" scheme="https://ghosttw.github.io/categories/dotnet-core-3/"/>
+    
+    
+      <category term="dotnet" scheme="https://ghosttw.github.io/tags/dotnet/"/>
+    
+      <category term="core-3" scheme="https://ghosttw.github.io/tags/core-3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>.Net Core 3 新功能 Worker Service</title>
+    <link href="https://ghosttw.github.io/2019/12/02/net-core-3-new-worker-service/"/>
+    <id>https://ghosttw.github.io/2019/12/02/net-core-3-new-worker-service/</id>
+    <published>2019-12-02T14:38:57.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Net-Core-Worker-Service&quot;&gt;&lt;a href=&quot;#Net-Core-Worker-Service&quot; class=&quot;headerlink&quot; title=&quot;.Net Core Worker Service&quot;&gt;&lt;/a&gt;.Net Core
+        
+      
+    
+    </summary>
+    
+    
+      <category term="dotnet-core-3" scheme="https://ghosttw.github.io/categories/dotnet-core-3/"/>
+    
+    
+      <category term="dotnet" scheme="https://ghosttw.github.io/tags/dotnet/"/>
+    
+      <category term="core-3" scheme="https://ghosttw.github.io/tags/core-3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 整合 Travis-ci 自動建置與發佈</title>
+    <link href="https://ghosttw.github.io/2019/12/01/init-blog-hexo-travisci/"/>
+    <id>https://ghosttw.github.io/2019/12/01/init-blog-hexo-travisci/</id>
+    <published>2019-12-01T14:37:56.000Z</published>
+    <updated>2020-03-16T00:47:39.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;建立了新的部落格在 github.io 上面，想說順手把自動建置跟發佈一起做一做，但就遇到了一堆問題，原本以為 1~2 小時可以全部設定完，但整個週日就這樣不見了，主要還是沒用過 Travis-ci…&lt;/p&gt;&lt;h2 id=&quot;Github&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Hexo" scheme="https://ghosttw.github.io/tags/Hexo/"/>
+    
+      <category term="blog" scheme="https://ghosttw.github.io/tags/blog/"/>
+    
+      <category term="travis-ci" scheme="https://ghosttw.github.io/tags/travis-ci/"/>
+    
+  </entry>
+  
+</feed>
